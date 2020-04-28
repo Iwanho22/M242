@@ -1,0 +1,127 @@
+﻿  HelloWorld.c
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(125,27): error C2061: syntax error: identifier '__attribute__'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(125,27): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(126,30): error C2061: syntax error: identifier '__attribute__'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(126,30): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(127,28): error C2061: syntax error: identifier '__attribute__'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(127,28): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(128,31): error C2061: syntax error: identifier '__attribute__'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(128,31): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(129,28): error C2061: syntax error: identifier '__attribute__'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(129,28): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(130,31): error C2061: syntax error: identifier '__attribute__'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(130,31): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(132,28): error C2061: syntax error: identifier '__attribute__'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(132,28): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(133,31): error C2061: syntax error: identifier '__attribute__'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(133,31): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(146,17): error C2061: syntax error: identifier 'intptr_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(146,17): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(151,18): error C2061: syntax error: identifier 'uintptr_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(151,18): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(163,18): error C2061: syntax error: identifier 'int_least8_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(163,18): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(168,18): error C2061: syntax error: identifier 'uint_least8_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(168,18): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(173,18): error C2061: syntax error: identifier 'int_least16_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(173,18): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(178,18): error C2061: syntax error: identifier 'uint_least16_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(178,18): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(183,18): error C2061: syntax error: identifier 'int_least32_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(183,18): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(188,18): error C2061: syntax error: identifier 'uint_least32_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(188,18): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(196,18): error C2061: syntax error: identifier 'int_least64_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(196,18): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(203,18): error C2061: syntax error: identifier 'uint_least64_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(203,18): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(217,16): error C2061: syntax error: identifier 'int_fast8_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(217,16): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(222,17): error C2061: syntax error: identifier 'uint_fast8_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(222,17): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(227,17): error C2061: syntax error: identifier 'int_fast16_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(227,17): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(232,18): error C2061: syntax error: identifier 'uint_fast16_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(232,18): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(237,17): error C2061: syntax error: identifier 'int_fast32_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(237,17): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(242,18): error C2061: syntax error: identifier 'uint_fast32_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(242,18): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(250,17): error C2061: syntax error: identifier 'int_fast64_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(250,17): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(257,18): error C2061: syntax error: identifier 'uint_fast64_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(257,18): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(277,17): error C2061: syntax error: identifier 'intmax_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(277,17): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(282,18): error C2061: syntax error: identifier 'uintmax_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\stdint.h(282,18): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\inttypes.h(77,17): error C2061: syntax error: identifier 'int_farptr_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\inttypes.h(77,17): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\inttypes.h(81,18): error C2061: syntax error: identifier 'uint_farptr_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\inttypes.h(81,18): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(720,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(722,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(723,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(724,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(725,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(726,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(727,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(728,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(729,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(730,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(731,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(732,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(733,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(734,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(735,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(736,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(737,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(738,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(739,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(740,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(741,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(742,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(743,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avr8-gnu-toolchain-win32_x86\avr\include\avr\iom32.h(744,9): warning C4068: unknown pragma
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(53,3): error C2061: syntax error: identifier 'uint8_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(54,11): error C2061: syntax error: identifier 'Payload'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(54,11): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(54,18): error C2059: syntax error: '['
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(55,2): error C2059: syntax error: '}'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(65,6): error C2061: syntax error: identifier 'uint8_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(67,14): error C2061: syntax error: identifier 'Id'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(67,14): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(72,14): error C2061: syntax error: identifier 'uint8_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(73,22): error C2061: syntax error: identifier 'MsgParamHigh'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(73,22): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(74,10): error C2059: syntax error: '}'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(76,6): error C2059: syntax error: '}'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(77,2): error C2059: syntax error: '}'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(82,44): error C2143: syntax error: missing ')' before '*'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(82,44): error C2143: syntax error: missing '{' before '*'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(82,49): error C2059: syntax error: ')'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(94,6): error C2061: syntax error: identifier 'uint8_t'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(95,19): error C2061: syntax error: identifier 'CurrentState'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(95,19): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(96,2): error C2059: syntax error: '}'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(108,21): error C2143: syntax error: missing ')' before '*'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(108,21): error C2143: syntax error: missing '{' before '*'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(108,26): error C2059: syntax error: ')'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(116,18): error C2143: syntax error: missing ')' before '*'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(116,18): error C2143: syntax error: missing '{' before '*'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(116,38): error C2146: syntax error: missing ';' before identifier 'state'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(116,43): error C2059: syntax error: ')'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(127,26): error C2146: syntax error: missing ')' before identifier 'prio'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(127,26): error C2061: syntax error: identifier 'prio'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(127,26): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(127,30): error C2059: syntax error: ','
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(127,75): error C2059: syntax error: ')'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(148,28): error C2146: syntax error: missing ')' before identifier 'id'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(148,28): error C2061: syntax error: identifier 'id'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(148,28): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(148,31): error C2059: syntax error: ')'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(149,28): error C2146: syntax error: missing ')' before identifier 'id'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(149,28): error C2061: syntax error: identifier 'id'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(149,28): error C2059: syntax error: ';'
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(149,30): error C2059: syntax error: ','
+E:\Ivo\Schule\GIBZ\Informatik\R.Laich\M242\Code\avr\ToolChain\avrlib\include\avrlib.h(149,30): fatal error C1003: error count exceeds 100; stopping compilation

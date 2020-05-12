@@ -12,7 +12,7 @@ __zero_reg__ = 1
 	.type	main, @function
 main:
 .LFB6:
-	.file 1 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c"
+	.file 1 "\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c"
 	.loc 1 11 0
 	.cfi_startproc
 /* prologue: function */
@@ -542,10 +542,10 @@ main:
 	.string	"long long int"
 .LASF8:
 	.string	"True"
-.LASF13:
-	.string	"Usart_Init"
-.LASF19:
-	.string	"__ms"
+.LASF2:
+	.string	"unsigned int"
+.LASF17:
+	.string	"uint32_t"
 .LASF14:
 	.string	"Usart_Trace0"
 .LASF10:
@@ -560,26 +560,26 @@ main:
 	.string	"long long unsigned int"
 .LASF11:
 	.string	"__ticks_dc"
+.LASF16:
+	.string	"\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c"
 .LASF1:
 	.string	"unsigned char"
 .LASF21:
 	.string	"main"
-.LASF17:
-	.string	"uint32_t"
+.LASF13:
+	.string	"Usart_Init"
+.LASF15:
+	.string	"GNU C99 5.4.0 -mn-flash=1 -mno-skip-bug -mmcu=avr5 -g2 -O1 -std=gnu99 -funsigned-char -funsigned-bitfields -ffunction-sections -fdata-sections -fpack-struct -fshort-enums"
 .LASF3:
 	.string	"long int"
-.LASF16:
-	.string	"C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c"
 .LASF12:
 	.string	"double"
 .LASF0:
 	.string	"signed char"
 .LASF7:
 	.string	"False"
-.LASF15:
-	.string	"GNU C99 5.4.0 -mn-flash=1 -mno-skip-bug -mmcu=avr5 -g2 -O1 -std=gnu99 -funsigned-char -funsigned-bitfields -ffunction-sections -fdata-sections -fpack-struct -fshort-enums"
-.LASF2:
-	.string	"unsigned int"
+.LASF19:
+	.string	"__ms"
 .LASF9:
 	.string	"sizetype"
 	.ident	"GCC: (AVR_8_bit_GNU_Toolchain_3.6.2_1759) 5.4.0"

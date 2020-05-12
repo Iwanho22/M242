@@ -24,17 +24,17 @@ LIB_DEP:=
 MMCU:=atmega328
 
 # Add inputs and outputs from these tool invocations to the build variables
-C_SRCS +=  C:\Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\Projekt\HelloWorld\HelloWorld.c
+C_SRCS +=  \Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\Projekt\HelloWorld\HelloWorld.c
 
 ASM_SRCS += 
 
-OBJS +=  C:\Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\Projekt\HelloWorld\Build\HelloWorld.o
+OBJS +=  \Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\Projekt\HelloWorld\Build\HelloWorld.o
 
-OBJS_AS_ARGS +=  C:\Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\Projekt\HelloWorld\Build\HelloWorld.o
+OBJS_AS_ARGS +=  \Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\Projekt\HelloWorld\Build\HelloWorld.o
 
-C_DEPS +=  C:\Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\Projekt\HelloWorld\Build\HelloWorld.d
+C_DEPS +=  \Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\Projekt\HelloWorld\Build\HelloWorld.d
 
-C_DEPS_AS_ARGS +=  C:\Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\Projekt\HelloWorld\Build\HelloWorld.d
+C_DEPS_AS_ARGS +=  \Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\Projekt\HelloWorld\Build\HelloWorld.d
 
 LIB_DEP+= $(AVR_LIB_PATH)\atmega328\AvrLib.a
 
@@ -42,7 +42,7 @@ LINKER_SCRIPT_DEP+=
 
 # compile sources
 
-C:\Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\Projekt\HelloWorld\Build\HelloWorld.o: C:\Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\Projekt\HelloWorld\Build\HelloWorld.c
+\Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\Projekt\HelloWorld\Build\HelloWorld.o: \Users\Ivo\Desktop\GIBZ\Informatik\M242\Code\Projekt\HelloWorld\Build\HelloWorld.c
 	@echo Building file: $<
 	@echo Invoking: AVR\GNU C Compiler : 5.4.0
 	$(AVR_TOOLS_PATH)\bin\avr-gcc.exe -x c -std=gnu99 -Werror -funsigned-char -funsigned-bitfields -DDEBUG -D$(AVR_FAMILY) -I "$(AVR_LIB_PATH)\include" -I"$(AVR_TOOLS_PATH)\avr\include" -I"$(ProjectRoot)"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=$(MMCU) -B "$(AVR_TOOLS_PATH)\avr\Lib" -c  -save-temps -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<"

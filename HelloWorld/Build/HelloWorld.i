@@ -1,8 +1,8 @@
-# 1 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c"
+# 1 "\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c"
 # 1 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build//"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c"
+# 1 "\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c"
 # 1 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\avr\\io.h" 1 3
 # 99 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\avr\\io.h" 3
 # 1 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\avr\\sfr_defs.h" 1 3
@@ -163,11 +163,17 @@ typedef struct
 
 # 1 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\avr\\lock.h" 1 3
 # 642 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\avr\\io.h" 2 3
-# 2 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c" 2
+# 2 "\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c" 2
 # 1 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h" 1
-# 28 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
+# 13 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
+# 1 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\avr\\interrupt.h" 1 3
+# 38 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\avr\\interrupt.h" 3
+# 1 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\avr\\io.h" 1 3
+# 39 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\avr\\interrupt.h" 2 3
+# 14 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h" 2
+# 107 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
 
-# 28 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
+# 107 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
 typedef enum
 {
     Idle=0,
@@ -177,19 +183,25 @@ typedef enum
     StandBy=6,
     ExtStandBy=7,
 } SleepMode;
-# 73 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
+# 158 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
 typedef struct GPIO_T_tag
 {
     volatile uint8_t PIN;
     volatile uint8_t DDR;
     volatile uint8_t PORT;
 } GPIO_T;
-# 135 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
+# 224 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
 typedef enum
 {
     DdrInput=0,
     DdrOutput=1,
 } DataDirection_T;
+
+
+
+
+
+
 
 typedef struct TCNT8_T_tag
 {
@@ -199,7 +211,7 @@ typedef struct TCNT8_T_tag
     volatile uint8_t OCRA;
     volatile uint8_t OCRB;
 } TCNT8_T;
-# 170 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
+# 274 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
 typedef enum
 {
     Normal=0,
@@ -207,7 +219,7 @@ typedef enum
     ClrTmrOnCmpMatch=2,
     FastPwm=3,
 } WaveFormGenerationModes;
-# 213 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
+# 322 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
 typedef enum
 {
     CS_Off=0,
@@ -225,6 +237,12 @@ typedef enum
     CsT2_Div1024=7,
 } ClkSelect;
 
+
+
+
+
+
+
 typedef struct TCNT16_T_tag
 {
     volatile uint8_t TCCRA;
@@ -236,7 +254,7 @@ typedef struct TCNT16_T_tag
     volatile uint16_t OCRA;
     volatile uint16_t ORCB;
 } TCNT16_T;
-# 332 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
+# 447 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
 typedef struct USART_T_tag
 {
     volatile uint8_t UCSRA;
@@ -246,7 +264,7 @@ typedef struct USART_T_tag
     volatile uint16_t UBBR;
     volatile uint8_t UDR;
 } USART_T;
-# 488 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
+# 603 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
 typedef enum
 {
     NoParityCheck=0,
@@ -260,7 +278,7 @@ typedef enum
     Synchronous=1,
     SpiMaster=3,
 } UART_ModeSelect;
-# 509 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
+# 631 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
 typedef struct ADC_T_tag
 {
     volatile uint16_t Data;
@@ -271,7 +289,7 @@ typedef struct ADC_T_tag
     volatile uint8_t Didr0;
     volatile uint8_t Didr1;
 } ADC_T;
-# 561 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
+# 683 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
 typedef enum
 {
     AdcDiv2=1,
@@ -282,7 +300,7 @@ typedef enum
     AdcDiv64=6,
     AdcDiv128=7,
 } AdcPrescaler;
-# 600 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
+# 722 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
 typedef enum
 {
     FreeRunning=0,
@@ -294,7 +312,7 @@ typedef enum
     Tc1Overflow=6,
     Tc1Capture=6,
 } AD_AutoTriggerSource;
-# 640 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
+# 762 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/Atmega328P.h"
 typedef enum
 {
     MuxAdc0=0,
@@ -309,7 +327,14 @@ typedef enum
     Mux11V=14,
     MuxGnd=15,
 } AnalogChannelSelection;
-# 3 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c" 2
+
+typedef enum
+{
+    ExternalAREF=0,
+    InternalVCC=1,
+    Internal1_1=3,
+} ReferenceSelection;
+# 3 "\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c" 2
 # 1 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/avrlib.h" 1
 # 25 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/avrlib.h"
 typedef enum
@@ -420,9 +445,9 @@ void Usart_PutChar(char ch);
 void EnterAtomic(void);
 
 void LeaveAtomic(void);
-# 4 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c" 2
+# 4 "\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c" 2
 # 1 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\avr\\ToolChain\\AvrLib\\include/RegisterAccess.h" 1
-# 5 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c" 2
+# 5 "\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c" 2
 
 # 1 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\util\\delay.h" 1 3
 # 45 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\util\\delay.h" 3
@@ -733,16 +758,12 @@ _delay_us(double __us)
  __builtin_avr_delay_cycles(__ticks_dc);
 # 299 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\util\\delay.h" 3
 }
-# 7 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c" 2
-
-# 1 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\avr\\interrupt.h" 1 3
-# 38 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\avr\\interrupt.h" 3
-# 1 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\avr\\io.h" 1 3
-# 39 "c:\\users\\ivo\\desktop\\gibz\\informatik\\m242\\code\\avr\\toolchain\\avr8-gnu-toolchain-win32_x86\\avr\\include\\avr\\interrupt.h" 2 3
-# 9 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c" 2
+# 7 "\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c" 2
 
 
-# 10 "C:\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c"
+
+
+# 10 "\\Users\\Ivo\\Desktop\\GIBZ\\Informatik\\M242\\Code\\Projekt\\HelloWorld\\Build\\HelloWorld.c"
 int main(void)
 {
  Usart_Init(250000);
